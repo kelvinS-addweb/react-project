@@ -9,7 +9,7 @@
   - When I click on Users I want to go to localhost:3000/users and load Users.jsx component
   - When I click on Posts I want to go to localhost:3000/users and load Posts.jsx component
  
-- Users.jsx - localhost:3000/user 
+- Users.jsx - localhost:3000/users
     - fetch the data from api path "localhost:3005/users" and show it as a list ( a simple HTML <ul> )
     - add a form that will add the user to the above users list. All fields in a User are mandetory. So can't add a user without any field empty. New user added should be reflected in db.json file.
     - each list item should have edit and delete button to edit and delete that user entry from the list
@@ -19,7 +19,7 @@
     - For Delete: 
         - deleted user should be removed from the user list. Also it should be removed from backend in db.json.
   
-- Books.jsx -localhosts:3000/book
+- Books.jsx -localhosts:3000/books
     - fetch the data from api path "localhost:3005/posts" and show it as a list ( a simple HTML <ul> )
     - add a form that will add the post to the above posts list. All fields of a Post are mandetory. So can't add a post without any field empty. New user added should be reflected in db.json file.
     - each list item should have edit and delete button to edit and delete that post entry from the list
