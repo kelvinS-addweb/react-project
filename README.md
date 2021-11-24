@@ -2,8 +2,8 @@
 -  setup a json-server as described here: https://www.youtube.com/watch?v=1zkgdLZEdwM or here: https://www.npmjs.com/package/json-server#links
 -  user port 3005 for api end points
 -  db.json file should have these two things: Users and Posts 
--     get list of users from here: https://jsonplaceholder.typicode.com/users and add it into db.json
--     get list of posts from here: https://jsonplaceholder.typicode.com/posts and add it into db.json
+    - get list of users from here: https://jsonplaceholder.typicode.com/users and add it into db.json
+    - get list of posts from here: https://jsonplaceholder.typicode.com/posts and add it into db.json
 - Homepage - localhost:3000/
   - show two links: Users, Posts
   - When I click on Users I want to go to localhost:3000/users and load Users.jsx component
