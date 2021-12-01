@@ -19,7 +19,7 @@
     - For Delete: 
         - deleted user should be removed from the user list. Also it should be removed from backend in db.json.
   
-- Books.jsx -localhosts:3000/books
+- Posts.jsx -localhosts:3000/posts
     - fetch the data from api path "localhost:3005/posts" and show it as a list ( a simple HTML <ul> )
     - add a form that will add the post to the above posts list. All fields of a Post are mandetory. So can't add a post without any field empty. New user added should be reflected in db.json file.
     - each list item should have edit and delete button to edit and delete that post entry from the list
